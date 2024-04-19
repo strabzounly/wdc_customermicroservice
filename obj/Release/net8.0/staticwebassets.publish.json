@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "dXaiE/tcDC2XNJa7LRBXDg+a485ZDeFIbqG+MEqv0bU=",
+  "Source": "CustomerMicroservice",
+  "BasePath": "_content/CustomerMicroservice",
+  "Mode": "Default",
+  "ManifestType": "Publish",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
