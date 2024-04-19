@@ -1,14 +1,8 @@
 using CustomerMicroservice.Data;
 using Microsoft.EntityFrameworkCore;
-using System.Globalization;
 using DotNetEnv;
-using System;
-using System.Threading;
 
 Env.Load();
-
-Thread.CurrentThread.CurrentCulture = new CultureInfo("en-us");
-Thread.CurrentThread.CurrentUICulture = new CultureInfo("en-us");
 
 var builder = WebApplication.CreateBuilder(args);
 string connectionString = Env.GetString("RemoteConnection");
