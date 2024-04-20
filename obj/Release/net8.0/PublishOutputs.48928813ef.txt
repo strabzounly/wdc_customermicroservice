@@ -1,11 +1,13 @@
 D:\_EDU\SVU\MWS\F23\HWs\wdc_assignment\CustomerMicroservice\bin\Release\net8.0\publish\CustomerMicroservice.exe
 D:\_EDU\SVU\MWS\F23\HWs\wdc_assignment\CustomerMicroservice\bin\Release\net8.0\publish\appsettings.Development.json
 D:\_EDU\SVU\MWS\F23\HWs\wdc_assignment\CustomerMicroservice\bin\Release\net8.0\publish\appsettings.json
+D:\_EDU\SVU\MWS\F23\HWs\wdc_assignment\CustomerMicroservice\bin\Release\net8.0\publish\testy.json
 D:\_EDU\SVU\MWS\F23\HWs\wdc_assignment\CustomerMicroservice\bin\Release\net8.0\publish\CustomerMicroservice.dll
 D:\_EDU\SVU\MWS\F23\HWs\wdc_assignment\CustomerMicroservice\bin\Release\net8.0\publish\CustomerMicroservice.runtimeconfig.json
 D:\_EDU\SVU\MWS\F23\HWs\wdc_assignment\CustomerMicroservice\bin\Release\net8.0\publish\CustomerMicroservice.pdb
 D:\_EDU\SVU\MWS\F23\HWs\wdc_assignment\CustomerMicroservice\bin\Release\net8.0\publish\Azure.Core.dll
 D:\_EDU\SVU\MWS\F23\HWs\wdc_assignment\CustomerMicroservice\bin\Release\net8.0\publish\Azure.Identity.dll
+D:\_EDU\SVU\MWS\F23\HWs\wdc_assignment\CustomerMicroservice\bin\Release\net8.0\publish\DotNetEnv.dll
 D:\_EDU\SVU\MWS\F23\HWs\wdc_assignment\CustomerMicroservice\bin\Release\net8.0\publish\Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.dll
 D:\_EDU\SVU\MWS\F23\HWs\wdc_assignment\CustomerMicroservice\bin\Release\net8.0\publish\Microsoft.AspNetCore.JsonPatch.dll
 D:\_EDU\SVU\MWS\F23\HWs\wdc_assignment\CustomerMicroservice\bin\Release\net8.0\publish\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
@@ -29,6 +31,7 @@ D:\_EDU\SVU\MWS\F23\HWs\wdc_assignment\CustomerMicroservice\bin\Release\net8.0\p
 D:\_EDU\SVU\MWS\F23\HWs\wdc_assignment\CustomerMicroservice\bin\Release\net8.0\publish\Microsoft.Win32.SystemEvents.dll
 D:\_EDU\SVU\MWS\F23\HWs\wdc_assignment\CustomerMicroservice\bin\Release\net8.0\publish\Newtonsoft.Json.dll
 D:\_EDU\SVU\MWS\F23\HWs\wdc_assignment\CustomerMicroservice\bin\Release\net8.0\publish\Newtonsoft.Json.Bson.dll
+D:\_EDU\SVU\MWS\F23\HWs\wdc_assignment\CustomerMicroservice\bin\Release\net8.0\publish\Sprache.dll
 D:\_EDU\SVU\MWS\F23\HWs\wdc_assignment\CustomerMicroservice\bin\Release\net8.0\publish\Swashbuckle.AspNetCore.Swagger.dll
 D:\_EDU\SVU\MWS\F23\HWs\wdc_assignment\CustomerMicroservice\bin\Release\net8.0\publish\Swashbuckle.AspNetCore.SwaggerGen.dll
 D:\_EDU\SVU\MWS\F23\HWs\wdc_assignment\CustomerMicroservice\bin\Release\net8.0\publish\Swashbuckle.AspNetCore.SwaggerUI.dll

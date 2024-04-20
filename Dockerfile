@@ -1,30 +1,24 @@
-# Use the official .NET SDK (version 8) as the build image
-FROM mcr.microsoft.com/dotnet/sdk:8.0 AS build
-
-# Set the working directory
+# Use the official .NET Core 8.* SDK as a build image
+FROM mcr.microsoft.com/dotnet/sdk:8.0 AS build-env
 WORKDIR /src
 
-# Copy the csproj and restore dependencies
-COPY *.csproj .
+# Copy project files and restore dependencies
+COPY . ./
 RUN dotnet restore
 
-# Copy the remaining files to the working directory
-COPY . .
+# Copy the rest of the project files and build the project
+COPY . ./
+RUN dotnet publish -c Release -o out
 
-# Build the application
-RUN dotnet publish -c Release -o /app/publish
-
-# Use the official .NET runtime (version 8) as the runtime image
+# Use the official .NET Core 8.* runtime image as the runtime image
 FROM mcr.microsoft.com/dotnet/aspnet:8.0
-
-# Set the working directory
 WORKDIR /app
 
-# Copy the published application from the build stage
-COPY --from=build /app/publish .
+# Copy the build outputs from the build image
+COPY --from=build-env /app/out .
 
-# Expose port 5151 for the application
-EXPOSE 5151
+# Expose the port the app listens on
+#EXPOSE 5151
 
-# Set the entry point for the application
+# Define the entry point for the container
 ENTRYPOINT ["dotnet", "CustomerMicroservice.dll"]

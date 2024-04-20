@@ -141,3 +141,6 @@ D:\_EDU\SVU\MWS\F23\HWs\wdc_assignment\CustomerMicroservice\obj\Release\net8.0\r
 D:\_EDU\SVU\MWS\F23\HWs\wdc_assignment\CustomerMicroservice\obj\Release\net8.0\CustomerMicroservice.pdb
 D:\_EDU\SVU\MWS\F23\HWs\wdc_assignment\CustomerMicroservice\obj\Release\net8.0\CustomerMicroservice.genruntimeconfig.cache
 D:\_EDU\SVU\MWS\F23\HWs\wdc_assignment\CustomerMicroservice\obj\Release\net8.0\ref\CustomerMicroservice.dll
+D:\_EDU\SVU\MWS\F23\HWs\wdc_assignment\CustomerMicroservice\bin\Release\net8.0\testy.json
+D:\_EDU\SVU\MWS\F23\HWs\wdc_assignment\CustomerMicroservice\bin\Release\net8.0\DotNetEnv.dll
+D:\_EDU\SVU\MWS\F23\HWs\wdc_assignment\CustomerMicroservice\bin\Release\net8.0\Sprache.dll
